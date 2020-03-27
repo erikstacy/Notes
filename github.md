@@ -27,12 +27,16 @@ The beauty of Git and Github is collaboration and version control.
 - Branches
 	- Can create different code bases within your repo
 	- Think of it almost as a different save as of a whole repo
-- Pull Request
-	- One branch requesting to pull it's code into another branch
-	- Here they could explain the code that they want to add
 - Merge
-	- When a pull request is approved
-	- One branch then absorbs another branch
+	- One branch absorbs another branch
+- Fork
+	- Like taking a whole repo, and creating a new instance of that under your own account
+	- You now will have an exact replica of that repo, including it's history
+	- We can then make as many changes as we want without affecting the original repo
+- Pull Request
+	- If I'm happy with what I've been working on, I could create a pull request to the original repo
+	- This would mean I want to add my code to the original repo
+	- Then the owner of the original repo can decide whether they want to pull my changes or not
 
 ### Author and Contributors
 
