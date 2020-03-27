@@ -82,6 +82,11 @@ This is purely a Github concept.
 - Could leave this up to the contributor that caused the conflict, or resolve it yourself
 - Once the conflict is resolved, we can merge the pull request
 
+## Remotes
+
+- Different instances of the repo
+- You can make different remotes from other people's forks of repo so you can merge their code into yours
+
 ### Author and Contributors
 
 An author is the person who wrote an article, a contributor is everybody else who made modifications or extensions.
