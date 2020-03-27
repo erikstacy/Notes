@@ -37,6 +37,25 @@ The beauty of Git and Github is collaboration and version control.
 	- If I'm happy with what I've been working on, I could create a pull request to the original repo
 	- This would mean I want to add my code to the original repo
 	- Then the owner of the original repo can decide whether they want to pull my changes or not
+- Cloning
+	- Taking a repository that's on a server, and putting a copy of it onto your own computer
+
+## Git Commands
+
+- git status
+	- Tells you the branch you're on
+	- Also tells you how your branch compares to the repo
+	- Mainly tells you whether there are changes or not
+- git commit -a -m "Adding something"
+	- This will commit all
+	- The -m with the quotes will add the quotes as the commit message
+- git log
+	- See your local history of commits
+- git remote
+	- This will list all of your remotes
+- git push origin master
+	- **origin:** The remote you want to push to
+	- **master:** The branch you want to push to
 
 ## Issues
 
