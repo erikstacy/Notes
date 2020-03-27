@@ -51,11 +51,25 @@ The beauty of Git and Github is collaboration and version control.
 	- The -m with the quotes will add the quotes as the commit message
 - git log
 	- See your local history of commits
-- git remote
+- git remote -v
 	- This will list all of your remotes
+- git remote add upstream https://github.com/erikstacy/Notes.git
+	- This adds a new remote called upstream to the linked repo
 - git push origin master
 	- **origin:** The remote you want to push to
 	- **master:** The branch you want to push to
+- git branch
+	- Lists all of the branches
+- git branch -a
+	- Lists all branches local and remote
+- git branch newbranch
+	- Creates a new branch named newbranch
+- git branch -d newbranch
+	- Deleted newbranch
+- git checkout master
+	- Switch to branch master
+- git fetch upstream
+	- This will fetch everything from the upstream remote repo
 
 ## Issues
 
@@ -109,3 +123,23 @@ This is purely a Github concept.
 ### Author and Contributors
 
 An author is the person who wrote an article, a contributor is everybody else who made modifications or extensions.
+
+# Contributing to Open Source projects
+
+- Before you do anything, check the CONTRIBUTING.md file to see how that project wants you to go about doing things
+- Typically you would open an issue when you want to make a contribution
+	- Write in detail what it is that you want to contribute
+	- Eventually the maintainer will respond, maybe with a question, or saying to go ahead
+- Once you get the go ahead, double check CONTRIBUTING.md just to check if there's a way they want you to set things up
+- BEFORE MAKING CHANGES, MAKE SURE THE INITIAL CLONE WILL BUILD AND RUN
+- When you fork and clone the project, you have now made your own project completely on it's own different track
+	- The upstream repository could get a bunch of commits, but yours will not
+	- If we want to keep up to date with upstream repository, we must take some steps
+		- Go to the upstream repository and create a new remote for that
+		- At this point you should have one remote for your personal fork repo, and one remote for the upstream repo
+		- Make sure to fetch the upstream remote into your master so we have up to date code
+		- We want our master to be pointing to the upstream repo so that it's up to date with the open source code
+			- Here's the trick
+			- git branch --set-upstream-to=upstream/master master
+		- Now when we pull on our master branch, we're pulling from the upstream repo
+	- We then want to make our branches off of this new master
