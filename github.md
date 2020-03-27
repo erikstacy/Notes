@@ -63,6 +63,18 @@ This is purely a Github concept.
 - We can also reference commits within an issue
 	- Pasting a commits hash code into the description of an issue will link to that commit
 
+## Github Pages
+
+- gh-pages
+	- The name of your "master" branch
+	- Can work just like your master, but will automatically make a url that anyone can access
+	- Make this the default branch
+		- Settings, branches
+		- Default branch can be changed here
+	- At this point we can delete the master branch
+- index.html
+	- This will be the defualt page when you go to the url
+
 ### Author and Contributors
 
 An author is the person who wrote an article, a contributor is everybody else who made modifications or extensions.
