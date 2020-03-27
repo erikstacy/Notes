@@ -75,6 +75,13 @@ This is purely a Github concept.
 - index.html
 	- This will be the defualt page when you go to the url
 
+## Resolving Merge Conflicts
+
+- When two people make a change to the same line, a conflict happens
+- We can pick which line gets to actually be added
+- Could leave this up to the contributor that caused the conflict, or resolve it yourself
+- Once the conflict is resolved, we can merge the pull request
+
 ### Author and Contributors
 
 An author is the person who wrote an article, a contributor is everybody else who made modifications or extensions.
