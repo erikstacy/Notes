@@ -38,6 +38,31 @@ The beauty of Git and Github is collaboration and version control.
 	- This would mean I want to add my code to the original repo
 	- Then the owner of the original repo can decide whether they want to pull my changes or not
 
+## Issues
+
+This is purely a Github concept.
+- Helps with collaboration in a repo
+- Components
+	- Title
+	- Body with a description
+	- Labels
+		- Helps to give a quick understanding of the issue
+	- Milestone
+	- Assign
+		- If you need someone specifically to work on this
+- Open Issue
+	- Means the issue still exists and is being worked on
+- Closed Issue
+	- The issue has been resolved
+	- Only the person that opened the issue or the owner of the repo can close an issue
+- All issues have an ID number
+	- When making a commit, you can put the ID number in the commit title to link this commit to the issue
+	- So if the issue is #10, you could put #10 in the commit title and it will show up under the issue
+- There are certain key words in a commit that will close an issue
+	- If you put the word "fixes" within the commit title with the issue ID, it will close that issue
+- We can also reference commits within an issue
+	- Pasting a commits hash code into the description of an issue will link to that commit
+
 ### Author and Contributors
 
 An author is the person who wrote an article, a contributor is everybody else who made modifications or extensions.
